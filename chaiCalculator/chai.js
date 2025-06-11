@@ -1,16 +1,23 @@
+// Declaring variables to be used.
 let numbOfCupsInput, numbOfCups, water, milk, tea, sugar
+
 function calculateChaiIngredients(){
 
+    // Prompts user for number of cups and changes it to an integer.
     numbOfCupsInput = window.prompt(`Karibu! How many cups of Chai Bora would you like to make?`)
     numbOfCups = parseInt(numbOfCupsInput)
+
     water = 200
     milk = 50
     tea = 1
     sugar = 2
+
     if(!numbOfCups){
+        // Error message.
         console.log(`Please enter a valid value.`)
         calculateChaiIngredients()
     }else{
+        // Success message.
         water *= water
         milk *= milk
         tea *= tea
