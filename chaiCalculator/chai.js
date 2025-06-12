@@ -18,10 +18,10 @@ function calculateChaiIngredients(){
         calculateChaiIngredients()
     }else{
         // Success message.
-        water *= water
-        milk *= milk
-        tea *= tea
-        sugar *= sugar
+        water *= numbOfCups
+        milk *= numbOfCups
+        tea *= numbOfCups
+        sugar *= numbOfCups
         console.log(`To make ${numbOfCups} cups of Kenyan Chai, you will need:
             Water: ${water}ml,
             Milk: ${milk}ml
