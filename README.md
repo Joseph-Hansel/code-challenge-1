@@ -17,11 +17,11 @@ THis code challenge has three main tasks:
 <!-- Project Setup -->
 ## Project Design.
 
-The project was done, mainly using the __Javascript__ programming language.
+The project was done using the __Javascript__ programming language.
 
 The three tasks have been undertaken in three different folders each with a Javascript file containing the logic of the program.
 
-The whole project is hosted on GitHub.
+The whole project is hosted on [GitHub.](https://github.com/Joseph-Hansel/code-challenge-1)
 
 ## Contributers.
 
