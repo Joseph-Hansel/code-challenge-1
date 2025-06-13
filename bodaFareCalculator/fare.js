@@ -13,11 +13,11 @@ function calculateBodaFare(){
 
     if(!distanceInKm){
         // Error message.
-        console.log(`Please enter a valid value`)
+        alert(`Please enter a valid value`)
         calculateBodaFare()
     }else{
         // Success message.
-        console.log(`Kama ni ${distanceInKm}km,
+        alert(`Kama ni ${distanceInKm}km,
             Kukalia pikipiki ni: KES${baseFare}
             Kubebwa kilomita ${distanceInKm}: KES${totalFare - baseFare}
             Total: KES${totalFare}
@@ -26,3 +26,5 @@ function calculateBodaFare(){
             Panda Pikipiki!`)
     }
 }
+
+calculateBodaFare()

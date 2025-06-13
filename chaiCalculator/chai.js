@@ -1,7 +1,6 @@
-// Declaring variables to be used.
-let numbOfCupsInput, numbOfCups, water, milk, tea, sugar
-
 function calculateChaiIngredients(){
+    // Declaring variables to be used.
+    let numbOfCupsInput, numbOfCups, water, milk, tea, sugar
 
     // Prompts user for number of cups and changes it to an integer.
     numbOfCupsInput = window.prompt(`Karibu! How many cups of Chai Bora would you like to make?`)
@@ -14,7 +13,7 @@ function calculateChaiIngredients(){
 
     if(!numbOfCups){
         // Error message.
-        console.log(`Please enter a valid value.`)
+        alert(`Please enter a valid value.`)
         calculateChaiIngredients()
     }else{
         // Success message.
@@ -22,7 +21,7 @@ function calculateChaiIngredients(){
         milk *= numbOfCups
         tea *= numbOfCups
         sugar *= numbOfCups
-        console.log(`To make ${numbOfCups} cups of Kenyan Chai, you will need:
+        alert(`To make ${numbOfCups} cups of Kenyan Chai, you will need:
             Water: ${water}ml,
             Milk: ${milk}ml
             Tea Leaves (Majani): ${tea} tablespoons
@@ -31,3 +30,5 @@ function calculateChaiIngredients(){
             Enjoy your Chai Bora!`)
     }
 }
+
+calculateChaiIngredients()

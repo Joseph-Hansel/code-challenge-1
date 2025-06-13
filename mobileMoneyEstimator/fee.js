@@ -1,7 +1,6 @@
 function transact(){
     // Prompting the user for amount of money and ensuring it is an integer.
     const amntstr = window.prompt("How much money would you like to transact?");
-
     const amnt = parseInt(amntstr);
 
     if(!amnt){
@@ -40,3 +39,5 @@ function transact(){
     }
     
 }
+
+transact()
