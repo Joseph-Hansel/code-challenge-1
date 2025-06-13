@@ -14,8 +14,7 @@ THis code challenge has three main tasks:
 
 > * To estimate the transaction fees for a transfer of mobile money.
 
-<!-- Project Setup -->
-## Project Design.
+
 
 The project was done using the __Javascript__ programming language.
 
@@ -23,7 +22,18 @@ The three tasks have been undertaken in three different folders each with a Java
 
 The whole project is hosted on [GitHub.](https://github.com/Joseph-Hansel/code-challenge-1)
 
-## Contributers.
+## Project Setup.
+
+To run the program, follow the following steps:
+
+> * Go to the live page using this link: [Live page](https://joseph-hansel.github.io/code-challenge-1/)
+
+> * Enter valid values as per the prompts that appear.
+
+> [!NOTE]
+> Failure to enter a value is not an option that can terminate the program. (You have to answer all prompts.)
+
+## Contributers (Authors).
 
 This Code Challenge is a result of the work put in by:
 
