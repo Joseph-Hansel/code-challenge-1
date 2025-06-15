@@ -33,6 +33,9 @@ To run the program, follow the following steps:
 > [!NOTE]
 > Failure to enter a value is not an option that can terminate the program. (You have to answer all prompts.)
 
+Just to be sure that the program is harmless, you want to cross-check by cloning this repository to your local machine. 
+You can then open the project folder in your preferred code editor (like VS Code) or, for quick viewing, open the index.html file directly in your web browser.
+
 ## Contributers (Authors).
 
 This Code Challenge is a result of the work put in by:
